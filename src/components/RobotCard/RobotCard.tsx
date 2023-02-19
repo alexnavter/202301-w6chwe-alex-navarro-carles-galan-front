@@ -17,11 +17,7 @@ const RobotCard = ({
     <>
       <RobotStyled className="robot">
         <h1 className="robot__name">{name}</h1>
-        <img
-          className="robot__photo"
-          src={url}
-          alt="robot with extended arms"
-        />
+        <img className="robot__photo" src={url} alt={`${name} robot`} />
         <ul className="robot__specs">
           <li className="robot__speed">{speed}</li>
           <li className="robot__endurance">{endurance}</li>
