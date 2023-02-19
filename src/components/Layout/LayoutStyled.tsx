@@ -6,13 +6,17 @@ const LayoutStyled = styled.div`
   flex-direction: column;
 
   .app-header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
     &__title {
       display: flex;
       font-family: monospace;
       font-weight: 800;
-      font-size: 40px;
+      font-size: 70px;
       color: #fff;
-      padding: 15px 0 20px;
+      padding: 0 0 35px;
     }
   }
 `;

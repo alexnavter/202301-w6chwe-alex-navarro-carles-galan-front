@@ -4,24 +4,29 @@ const RobotStyled = styled.article`
   display: flex;
   flex-direction: column;
 
-  min-height: 350px;
-  width: 330px;
-
   border-radius: 15px;
   background-color: #fff;
 
   justify-content: space-between;
 
   color: black;
+  box-shadow: 8px 5px 15px black;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 
   .robot {
     display: flex;
+    height: 330px;
 
     &__photo {
       justify-items: center;
       max-width: 100%;
       height: 250px;
-      object-fit: cover;
+      object-fit: contain;
+      padding: 20px;
+      border-bottom: solid black 1px;
     }
   }
 
@@ -35,6 +40,8 @@ const RobotStyled = styled.article`
     font-size: 0 1rem;
 
     justify-content: flex-start;
+    background-color: #c5edfe;
+    border-radius: 0 0 15px 15px;
 
     &__title {
       display: flex;
@@ -81,7 +88,7 @@ const RobotStyled = styled.article`
     &__date {
       font-weight: 400;
       font-size: 0.8rem;
-      color: #565a97;
+      color: #7a7a7a;
     }
   }
 
