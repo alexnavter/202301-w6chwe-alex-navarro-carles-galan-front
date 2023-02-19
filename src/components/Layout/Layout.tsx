@@ -1,3 +1,4 @@
+import RobotCardList from "../RobotCardList/RobotCardList";
 import LayoutStyled from "./LayoutStyled";
 
 const Layout = (): JSX.Element => {
@@ -6,6 +7,7 @@ const Layout = (): JSX.Element => {
       <header className="app-header">
         <h1 className="app-header__title">Robots App</h1>
       </header>
+      <RobotCardList />
     </LayoutStyled>
   );
 };

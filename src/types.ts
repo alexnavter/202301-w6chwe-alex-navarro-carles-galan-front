@@ -1,10 +1,11 @@
 export interface RobotStructure {
+  _id: string;
+  name: string;
+  url: string;
   specs: {
     speed: number;
     endurance: number;
     creationDate: string;
   };
-  name: string;
-  image: string;
 }
 export type RobotsStructure = RobotStructure[];

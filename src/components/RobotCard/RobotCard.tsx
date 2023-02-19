@@ -1,5 +1,5 @@
 import { RobotStructure } from "../../types";
-import RobotStyled from "./RobotStyled";
+import RobotStyled from "./RobotCardStyled";
 
 interface RobotCardProps {
   robot: RobotStructure;
@@ -7,8 +7,9 @@ interface RobotCardProps {
 
 const RobotCard = ({
   robot: {
+    _id,
     name,
-    image,
+    url,
     specs: { speed, endurance, creationDate },
   },
 }: RobotCardProps): JSX.Element => {
@@ -18,7 +19,7 @@ const RobotCard = ({
         <h1 className="robot__name">{name}</h1>
         <img
           className="robot__photo"
-          src={image}
+          src={url}
           alt="robot with extended arms"
         />
         <ul className="robot__specs">
