@@ -21,7 +21,7 @@ const RobotCard = ({
           src={url}
           alt={`${name} robot`}
           height={250}
-          width={330}
+          width={290}
         />
         <div className="robot-body">
           <h1 className="robot-body__title">{name}</h1>
