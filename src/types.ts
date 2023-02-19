@@ -1,8 +1,8 @@
-interface RobotStructure {
+export interface RobotStructure {
   specs: {
     speed: number;
     endurance: number;
-    creationData: string;
+    creationDate: string;
   };
   name: string;
   image: string;
