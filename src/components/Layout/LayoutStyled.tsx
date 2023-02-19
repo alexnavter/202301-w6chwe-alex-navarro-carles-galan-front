@@ -8,9 +8,11 @@ const LayoutStyled = styled.div`
   .app-header {
     &__title {
       display: flex;
-      font-family: helvetica;
+      font-family: monospace;
       font-weight: 800;
       font-size: 40px;
+      color: #fff;
+      padding: 15px 0 20px;
     }
   }
 `;

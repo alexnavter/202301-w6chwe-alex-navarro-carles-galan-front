@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 import RobotCardList from "../RobotCardList/RobotCardList";
 import LayoutStyled from "./LayoutStyled";
 
