@@ -10,7 +10,8 @@ describe("Given a robotsReducer function", () => {
         creationDate: "",
       },
       name: "",
-      image: "",
+      url: "",
+      _id: "",
     };
     const Termomix: RobotStructure = {
       specs: {
@@ -19,7 +20,8 @@ describe("Given a robotsReducer function", () => {
         creationDate: "",
       },
       name: "",
-      image: "",
+      url: "",
+      _id: "",
     };
 
     const robots: RobotsStructure = [R2d2, Termomix];
